@@ -107,7 +107,7 @@ main :nth-child(1).text :nth-child(1){
 }
 main :nth-child(2).text :nth-child(1){
 
-    background-color: rgb(170, 148, 103);
+    background-color: rgb(130, 101, 207);
 }
 main :nth-child(3).text :nth-child(1){
 
