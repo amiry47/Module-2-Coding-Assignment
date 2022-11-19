@@ -18,12 +18,11 @@ body{
 
 }
 
+
 .text :nth-child(2){
     
     padding: 0% 5% 0% 5%;
-    margin: 12% 5% 2% 5%;
-
-    
+    margin: 20% 5% 2% 5%;
 }
 
 .title{
@@ -50,24 +49,8 @@ body{
     
     }
     
-    .text :nth-child(2){
-        
-        padding: 0% 5% 0% 5%;
-        margin: 25% 5% 5% 5%;
-    
-        
-    }
+   
 
-}
-@media screen and (min-width: 1750px) {
-    
-    .text :nth-child(2){
-        
-        padding: 0% 5% 0% 5%;
-        margin: 12% 5% 2% 5%;
-    
-        
-    }
 }
 
 /* between 768px and 991px */
@@ -91,14 +74,17 @@ body{
         width: 95.2%;
         
     }
-    main :nth-child(3)  p {
+    .text p {
         
         width: auto;
     }
+    main :nth-child(3).text :nth-child(2){
     
+        padding: 10% 5% 0% 5%;
+        margin: 0% 5% 2% 5%;
     
-    
-    
+        
+    }
 
 }
 
@@ -106,6 +92,26 @@ body{
     .text{
         margin-bottom: 5%;
     }
+    .text :nth-child(2){
+    
+        padding: 10% 5% 0% 5%;
+        margin: 5% 5% 2% 5%;
+    
+        
+    }
+}
+
+main :nth-child(1).text :nth-child(1){
+
+    background-color: rgb(217, 163, 56);
+}
+main :nth-child(2).text :nth-child(1){
+
+    background-color: rgb(170, 148, 103);
+}
+main :nth-child(3).text :nth-child(1){
+
+    background-color: rgb(30, 232, 148);
 }
 
 
