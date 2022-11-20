@@ -11,14 +11,14 @@ margin-top: 5%;
 }
 main{
     width: 100%;
-    margin: 0% 5% 0% 5%;
+    margin: 0% 5% ;
 }
 .text{
     border:  1px solid;
     position: relative;
     float: left;
     width: 28%;
-    margin-left: 2% ;
+    margin-right: 3% ;
     background-color: #fff;
 }
 .title{
@@ -36,11 +36,11 @@ main{
     
     .text{
         width: 44%;
-        margin-left: 2% ;
+        margin-right: 2% ;
         margin-bottom: 2%;
     }
     main :nth-child(3)  {
-        width: 90%;
+        width: 90.2%;
     }
 
 }
@@ -49,6 +49,7 @@ main{
     .text{
         width: 90%;
         margin-bottom: 2%;
+    
     }
    
 
